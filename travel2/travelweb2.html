@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrie's Travel</title>
+    <link rel="icon" type="image/png" href="./images/logo_icon.png">
+    <link rel="stylesheet" href="./travelweb2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <h4 class="logo"><i class="fa-solid fa-c"></i>Travel</h4>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#service">Service</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#destination">Destination</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-icon">
+            <i class="fa-solid fa-user" id="login-btn"></i>
+            <i class="fa-solid fa-magnifying-glass" id="search-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Search here">
+            <label for="search-bar" class="fa-solid fa-magnifying-glass"></label>
+        </form>
+    </header>
+    <div class="login-form-container">
+        <i class="fa-solid fa-x" id="login-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" class="login-btn" value="login">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot password?<a href="#">Click here</a></p>
+            <p>Need an account?<a href="#">Sing up</a></p>
+        </form>
+    </div>
+
+    <!--Home-->
+    <section id="home">
+        <div class="home-container">
+            <div class="home-intro">
+                <h1>Journey to<br>explore world</h1>
+                <a class="home-btn" href="#service">Explore Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Service-->
+    <section id="service">
+        <div class="service-container">
+            <div class="title">
+                <h2>Service</h2>
+            </div>
+
+            <div class="service-content">
+                <div class="box">
+                    <i class="fa-solid fa-hotel"></i>
+                    <h4>Affordable Hotel</h4>
+                    <p>Provide you the best travel experience</p>
+                    
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-star" ></i> 
+                    <h4>Safety Guide</h4>
+                    <p>Provide you the best travel experience</p>
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h4>Around The World</h4>
+                    <p>Provide you the best travel experience</p>                    
+                </div>
+
+                <div class="box">
+                    <i class="fa-solid fa-plane"></i>
+                    <h4>Fatest Travel</h4>
+                    <p>Provide you the best travel experience</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Book-->
+    <section id="book">
+        <div class="book-container">
+            <div class="title">
+                <h2>Book</h2>
+            </div>
+
+            <div class="book-content">
+                <form action="" class="book-form">
+                    <div class="inputbox">
+                        <h4>Where To</h4>
+                        <input type="text" placeholder="Place Name">
+                    </div>
+
+                    <div class="inputbox">
+                        <h4>How Many</h4>
+                        <input type="number" placeholder="Number Of Guests">
+                    </div>
+
+                    <div class="inputbox">
+                        <h4>arravals</h4>
+                        <input type="date">
+                    </div>
+
+                    <div class="inputbox">
+                        <h4>leaving</h4>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="book-btn" value="book now">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--Packages-->
+    <section id="packages">
+        <div class="packages-container">
+            <div class="title">
+                <h2>Packages</h2>
+            </div>
+            <div class="packages-content">
+                <div class="packages-box">
+                    <img src="./images/hawaii.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>Hawaii</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$300<span>$350</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="packages-box">
+                    <img src="./images/paris.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>France</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$300<span>$350</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="packages-box">
+                    <img src="./images/switzerland.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>Switzerland</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$400<span>$450</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="packages-box">
+                    <img src="./images/netherlands.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>Netherlands</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$300<span>$350</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="packages-box">
+                    <img src="./images/london1.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>England</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$300<span>$350</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="packages-box">
+                    <img src="./images/dubai.jpg" alt="">
+                    <div class="pa-box-text">
+                        <h4><i class="fa-solid fa-plane"></i>Dubai</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="price">$400<span>$450</span></div>
+                        <a href="#" class="pa-btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Destination-->
+    <section id="destination">
+        <div class="des-contanier">
+            <div class="title">
+                <h2>Destination</h2>
+            </div>
+
+            <div class="des-content">
+                <div class="des-box">
+                    <img src="./images/canada.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Toronto</h4>
+                        <p>Canada</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/greece.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Santorini</h4>
+                        <p>Greece</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/germany.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Cochem</h4>
+                        <p>Germany</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/new york.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>New York</h4>
+                        <p>United State</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/scotland.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Highland</h4>
+                        <p>Scotland</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/italy.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Rome</h4>
+                        <p>Italy</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/belgium.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Brussels</h4>
+                        <p>Belgium</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/barcelona.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Barcelona</h4>
+                        <p>Spain</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="des-box">
+                    <img src="./images/potugal.jpg" alt="">
+                    <div class="des-box-content">
+                        <h4>Porto</h4>
+                        <p>Portugal</p>
+                        <a href="#" class="des-btn">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Subscribe-->
+    <section id="subscribe">
+        <div class="subscribe-container">
+            <div class="sub-text">
+                <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter and get a special 20% discount.</p>
+            </div>
+    
+            <div class="sub-email">
+                <form action="" >
+                    <input type="email" placeholder="Enter your email " class='sub-input' required>
+                    <input type="button" value="Subscribe" class="sub-button">
+                </form>
+            </div>    
+        </div>
+    </section>
+ 
+    <!--Contact-->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-content">
+                <div class="list">
+                    <h4>quick links</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-plane"></i>About Us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-plane"></i>Terms & Conditions</a></li>
+                        <li><a href="#"><i class="fa-solid fa-plane"></i>Privacy Policy</a></li>
+                        <li><a href="#"><i class="fa-solid fa-plane"></i>Tour</a></li>
+                        <li><a href="#"><i class="fa-solid fa-plane"></i>Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>our branches</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Japan</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Korea</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>China</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Singapore</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Thailand</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>contact info</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>Taipei City, Taiwan</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i>+ 123 - 456 - 789</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i>+ 0000-0000-0000</a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i>example@mail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>follow us</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#"><i class="fa-brands fa-line"></i>Line</a></li>
+                        <li><a href="#"><i class="fa-brands fa-wordpress"></i></i>WordPress</a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>                                                                           
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>&#8211; Developed by Carrie Chen &#8211;</p>
+    </div>
+
+    <!--Scroll-Top-->
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!--JS-->
+    <script type="text/javascript" src="./travelweb2.js"></script>
+</body>
+</html>
